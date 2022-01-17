@@ -1,4 +1,4 @@
-<h3>Rest API WITH JAVA SPRING BOOT</h3>
+<h2>Rest API WITH JAVA SPRING BOOT</h2>
 
 #About Project
 Project ini adalah project pembuatan rest api dengan menggunakan famework java spring boot. Proses pengelolahan data pada project ini menggunakan MySQL. Project ini menggunakan beberapa dependensi dari java spring boot diantaranya.
