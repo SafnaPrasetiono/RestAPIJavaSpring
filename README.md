@@ -7,8 +7,8 @@ Project ini adalah project pembuatan rest api dengan menggunakan famework java s
 - JPA Data Spring
 - MySQL Driver
 
-#Cara Penggunaan
-Anda bisa clone atau download aplikasi ini lalu buka dengan menggunakan spring tools suit atau bisa juga menggunakan text editor yang sudah terinstall extension java spring.
+## Cara Penggunaan
+Anda bisa clone atau download aplikasi ini lalu buka dengan menggunakan spring tools suit atau bisa juga menggunakan text editor yang sudah terinstall extension java spring. buat database baru dengan mengunakan application local server dengan nama database "restapispringboot".
 
 - Menjalankan Applikasi dengan Windows
 <pre>
@@ -18,5 +18,35 @@ Anda bisa clone atau download aplikasi ini lalu buka dengan menggunakan spring t
 <pre>
     <code>./mvnw spring-boot:run</code>
 </pre>
-- applikasi ini menggunakan port localhost:8181
+
+## RestAPI
+Project ini berjalan dengan menggunakan port:8181 anda dapat mengaksesnya dengan localhost:8181. jika ingin merubah port anda dapat merubahnya pada application.properties dalam project ini. Gunakan aplikasi postman untuk mengakses penggunakan RestAPI pada project ini.
+- Menampilkan seluruh data
+<pre>
+    Use with GET Data
+    <code>
+        localhost:8181/user
+    </code>
+</pre>
+- Menambahkan data baru
+<pre>
+    Use With POST Data
+    <code>
+        localhost:8181/user
+    </code>
+</pre>
+- Merubah data berdasarkan id
+<pre>
+    Use With PUT Data
+    <code>
+        localhost:8181/user/edit/{id}
+    </code>
+</pre>
+- Menghapus data
+<pre>
+    Use With DELETE Data
+    <code>
+        localhost:8181/delete/{id}
+    </code>
+</pre>
 
