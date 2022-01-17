@@ -32,7 +32,7 @@ Project ini berjalan dengan menggunakan port:8181 anda dapat mengaksesnya dengan
 <pre>
     Use With POST Data
     <code>
-        localhost:8181/user
+        localhost:8181/user/insert
     </code>
 </pre>
 - Merubah data berdasarkan id
@@ -46,7 +46,7 @@ Project ini berjalan dengan menggunakan port:8181 anda dapat mengaksesnya dengan
 <pre>
     Use With DELETE Data
     <code>
-        localhost:8181/delete/{id}
+        localhost:8181/user/delete/{id}
     </code>
 </pre>
 
